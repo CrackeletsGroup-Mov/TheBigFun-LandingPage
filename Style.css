@@ -693,6 +693,16 @@ Header .logo{
     padding-bottom: 20px;
 }
 
+.MediaSection{
+    display: flex;
+    background-color: #53105C;
+
+}
+
+.comingSoon{
+    width: 100%;
+}
+
 .team-designer{
     display: flex;
     height: 20rem;
