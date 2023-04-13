@@ -735,3 +735,15 @@ Header .logo{
 .team-designer>div>h2:hover{
     opacity: 1;
 }
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    font-family: poppins;
+    font-size: small;
+}
