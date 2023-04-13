@@ -330,10 +330,10 @@ Header .logo{
     margin-bottom: 60px;
 }
 
-.AboutUs img{
-
-
-
+.AboutUs h1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .AboutUs img:hover{
@@ -674,13 +674,15 @@ Header .logo{
     width:100%;
 }
 
-.AboutTheProduct{
-    padding-top: 20px;
+.AboutThe{
+    padding-top: 50px;
+    padding-bottom: 70px;
     align-items: center;
     display: flex;
+    width: 50%;
     justify-content: center;
 }
-.AboutTheProduct .container{
+.AboutThe .container{
 
     width: 80%;
     margin: 0 auto;
@@ -688,7 +690,7 @@ Header .logo{
     justify-content: center;
 }
 
-.AboutTheProduct h1{
+.AboutThe h1{
     text-align: center;
     padding-bottom: 20px;
 }
@@ -699,9 +701,15 @@ Header .logo{
 
 }
 
+.textAbout{
+    font-family: poppins;
+    color: white;
+}
+
 .comingSoon{
     width: 100%;
 }
+
 
 .team-designer{
     display: flex;
@@ -747,3 +755,5 @@ footer p{
     font-family: poppins;
     font-size: small;
 }
+
+
