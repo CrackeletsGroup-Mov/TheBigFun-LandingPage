@@ -678,9 +678,10 @@ Header .logo{
     padding-top: 50px;
     padding-bottom: 70px;
     align-items: center;
-    display: flex;
     width: 50%;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .AboutThe .container{
 
@@ -695,8 +696,8 @@ Header .logo{
     padding-bottom: 20px;
 }
 
-.MediaSection{
-    display: flex;
+.MediaSection {
+
     background-color: #53105C;
 
 }
