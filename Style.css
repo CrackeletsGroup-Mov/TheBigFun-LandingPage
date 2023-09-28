@@ -330,10 +330,10 @@ Header .logo{
     margin-bottom: 60px;
 }
 
-.AboutUs img{
-
-
-
+.AboutUs h1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .AboutUs img:hover{
@@ -674,13 +674,16 @@ Header .logo{
     width:100%;
 }
 
-.AboutTheProduct{
-    padding-top: 20px;
+.AboutThe{
+    padding-top: 50px;
+    padding-bottom: 70px;
     align-items: center;
-    display: flex;
+    width: 50%;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
-.AboutTheProduct .container{
+.AboutThe .container{
 
     width: 80%;
     margin: 0 auto;
@@ -688,10 +691,26 @@ Header .logo{
     justify-content: center;
 }
 
-.AboutTheProduct h1{
+.AboutThe h1{
     text-align: center;
     padding-bottom: 20px;
 }
+
+.MediaSection {
+
+    background-color: #53105C;
+
+}
+
+.textAbout{
+    font-family: poppins;
+    color: white;
+}
+
+.comingSoon{
+    width: 100%;
+}
+
 
 .team-designer{
     display: flex;
@@ -725,3 +744,20 @@ Header .logo{
 .team-designer>div>h2:hover{
     opacity: 1;
 }
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    font-family: poppins;
+    font-size: small;
+}
+.smimg{
+    margin-top:5px;
+    height: 30px;
+}
+
